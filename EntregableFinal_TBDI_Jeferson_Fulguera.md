@@ -544,7 +544,7 @@ Esto genera pdb_employees_backup.dump.gz (aproximadamente 35 MB), que se sube a 
 ## 10. Repositorio GitHub
 
 **Enlace al repositorio:**
-[PEGAR AQUÍ TU LINK DE GITHUB]
+https://github.com/russiandoomer/proyecto-completo-final-Tecnologia-Base-de-datos-1-
 
 **Contenido del repositorio:**
 entregable-final-tbdi/
