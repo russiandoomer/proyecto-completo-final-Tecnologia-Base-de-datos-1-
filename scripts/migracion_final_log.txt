@@ -1,0 +1,30 @@
+2026-09-28T09:18:09.075998Z LOG pgloader version "3.6.10~devel"
+2026-09-28T09:18:09.659994Z LOG Migrating from #<MYSQL-CONNECTION mysql://root@localhost:3306/employees {1006B159C3}>
+2026-09-28T09:18:09.659994Z LOG Migrating into #<PGSQL-CONNECTION pgsql://jeferson@localhost:5432/pdb_employees {1006B15BD3}>
+2026-09-28T09:18:57.307599Z LOG report summary reset
+             table name     errors       rows      bytes      total time
+-----------------------  ---------  ---------  ---------  --------------
+        fetch meta data          0         21                     0.780s
+         Create Schemas          0          0                     0.012s
+       Create SQL Types          0          0                     0.012s
+          Create tables          0         12                     0.152s
+         Set Table OIDs          0          6                     0.012s
+-----------------------  ---------  ---------  ---------  --------------
+     employees.salaries          0    2844047    94.2 MB         38.616s
+     employees.dept_emp          0     331603    10.7 MB         15.884s
+       employees.titles          0     443308    16.9 MB         12.300s
+  employees.departments          0          9     0.1 kB          5.480s
+    employees.employees          0     300024    13.2 MB          8.248s
+ employees.dept_manager          0         24     0.8 kB          2.188s
+-----------------------  ---------  ---------  ---------  --------------
+COPY Threads Completion          0          8                    38.612s
+         Create Indexes          0          9                     9.576s
+ Index Build Completion          0          9                     4.968s
+        Reset Sequences          0          0                     0.324s
+           Primary Keys          0          6                     0.076s
+    Create Foreign Keys          0          6                     2.148s
+        Create Triggers          0          0                     0.008s
+        Set Search Path          0          1                     0.016s
+       Install Comments          0          0                     0.000s
+-----------------------  ---------  ---------  ---------  --------------
+      Total import time          ✓    3919015   134.9 MB         55.728s
